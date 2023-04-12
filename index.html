@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="./src/styles/font.css">
+</head>
+    <body>
+        <form>
+            <header>
+                <img src="./src/pictures/USA.png" alt=""> 
+                <h1>FORMULARIO ESTA-información personal</h1>
+            </header>
+            <main>
+                <section id="label">
+                    <label id="indicar-sexo" for="radio">Indicar su sexo</label>
+                    <label for="last-name" >Apellido</label>
+                    <label for="first-name">Nombre</label>
+                    <label for="date">Fecha de nacimiento</label>
+                    <label for="city">Ciudad de nacimiento</label>
+                    <label for="country">País de nacimiento</label>
+                    <label for="nationality">Nacionalidad</label>
+                    <label for="number-passport">Número de pasaporte</label>
+                    <label for="country-passport">País donde ha sido emitido su pasaporte</label>
+                    <label for="passport-issue-date">Fecha de emisión del pasaporte</label>
+                    <label for="passport-expiry-date">Fecha de emisión del pasaporte</label>
+                </section>
+
+                <section id="input">
+                    <section id="radio">
+                        <article class="sexo">
+                            <input type="radio" id="men" name="sex" value="hombre" required>
+                            <label class="sex" for="men">Hombre</label>
+                        </article>
+
+                        <article class="sexo">
+                            <input type="radio" id="woman" name="sex" value="mujer" required>
+                            <label class="sex" for="woman">Mujer</label>
+                        </article>
+                    </section>
+
+                    <section id="nombres">
+                        <input type="text" id="last-name" placeholder="Apellido (como se muestra en su pasaporte)" required>
+                        <input type="text" id="first-name" placeholder="Solo nombre" required>
+                    </section>
+
+                    <section>
+                        <article>
+                            <select name="day" class="date" required>
+                                <option hidden value="">Dia</option>
+                            </select>
+                        </article>
+                        <article>
+                            <select name="mounth" class="date" required>
+                                <option hidden value="">Mes</option>
+                            </select>
+                        </article>
+                        <article>
+                            <select name="year" class="date" required>
+                                <option hidden value="">Año</option>
+                            </select>
+                        <article>
+                    </section>
+
+                    <input type="text" id="city" placeholder="Ciudad de nacimiento" required> 
+
+                    <section>
+                        <select name="country" id="country" required>
+                            <option hidden value="">Spain</option>
+                        </select>
+                    </section>
+
+                    <section>
+                        <select name="nationality" id="nationality" required>
+                            <option hidden value="">Spain</option>
+                        </select>
+                    </section>
+
+                    
+                        <input type="text" id="number-passport" placeholder="Número de pasaporte" required> 
+
+                    <section>
+                        <select name="country-passport" id="country-passport" required>
+                            <option hidden value="">Spain</option>
+                        </select>
+                    </section>
+
+                    <section>
+                        <article>
+                            <select name="day-of-issue" id="passport-issue-date" required>
+                                <option hidden value="">Día</option>
+                            </select>
+                        </article>
+
+                        <article>
+                            <select name="mounth-of-issue" id="passport-issue-date" required>
+                                <option hidden value="">Mes</option>
+                            </select>
+                        </article>
+
+                        <article>
+                            <select name="year-of-issue" id="passport-issue-date" required>
+                                <option hidden value="">Año</option>
+                            </select>
+                        <article>
+                    </section>
+
+                    <section>
+                        <article>
+                            <select name="day-of-expiry" id="passport-expiry-date" required>
+                                 <option hidden value="">Día</option>
+                            </select>
+                        </article>
+
+                        <article>
+                            <select name="mounth-of-expiry" id="passport-expiry-date" required>
+                                <option hidden value="">Mes</option>
+                            </select>
+                        </article>
+                        
+                        <article>
+                            <select name="year-of-expiry" id="passport-expiry-date" required>
+                                <option hidden value="">Año</option>
+                            </select>
+                        <article>
+                    </section>
+                </section>
+            </main>
+        </form>    
+    </body>     
+</html> 

@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fefefe;
+  border: #d8d8d8 solid;
+  height: 80px;
+}
+
+img {
+  display: inline-block;
+  height: 70px;
+  margin-left: 580px;
+  position: relative;
+  top: 5px;  
+}
+
+h1 {
+  display: inline;
+  color: #777471;
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 27px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 22px;      
+}
+
+main {
+  background-color: #eeeeee;
+  padding-left: 40px;   
+}
+
+#indicar-sexo {
+  position: relative;
+  bottom: 60px;
+  margin-bottom: 0px;
+}
+
+.sex {
+  margin-left: 0px;
+}
+
+#label {
+  display: inline-block;
+}
+
+label  {
+  display: block;
+  margin: 42px;
+  /* display: inline-block; */
+  text-align: right;
+  font-family: 'brandon';
+  font-size: 26px;
+  /* margin-left: 140px; */
+}
+
+input {
+  display: inline-block;
+}
+  
+#input > section {
+  margin: 30px;
+}
+
+article {
+  display: inline;
+}
+
+.sexo {
+  padding-left: 15px;
+}
+
+#input {
+  display: inline-block;
+  position: relative;
+  left: 0;
+}
+
+.sexo > label {
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  bottom: 18px;
+}
+
+#men,
+#woman {
+  width: 20px;
+  left: 10px;
+}
+
+.sexo {
+  font-family: 'brandon';
+  font-size: 22px;
+  position: relative;
+  right: 20px;
+}
+
+#last-name, 
+#first-name {
+  display: block;
+}
+
+#last-name {
+  margin-bottom: 30px;
+}
+
+input,
+select {
+  font-size: 22px;
+  font-family: 'brandon';
+  color: #777471;
+  margin-left: 12px;
+  height: 50px;
+  padding-left: 18px;
+  border: #d8d8d8 solid;
+  border-radius: 4px;  
+}
+
+input {
+  width: 500px;
+}
+
+select {
+  width: 157px;
+  padding-right: 10px; 
+}
+
+#city,
+#number-passport {
+  margin-left: 42px;
+  width: 504px;
+}
+
+#country,
+#nationality,
+#country-passport {
+  width: 504px ;
+}
+
+.date {
+  padding-left: 10px;
+}
